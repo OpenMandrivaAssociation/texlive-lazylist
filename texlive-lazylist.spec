@@ -1,3 +1,9 @@
+# revision 17691
+# category Package
+# catalog-ctan /macros/latex/contrib/lazylist
+# catalog-date 2006-12-30 10:59:01 +0100
+# catalog-license lppl
+# catalog-version 1.0a
 Name:		texlive-lazylist
 Version:	1.0a
 Release:	1
@@ -40,6 +46,7 @@ formally verified.
 %{_texmfdistdir}/tex/latex/lazylist/lazylist.sty
 %doc %{_texmfdistdir}/doc/latex/lazylist/lazylist.pdf
 %doc %{_texmfdistdir}/doc/latex/lazylist/lazylist.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -50,3 +57,5 @@ formally verified.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
