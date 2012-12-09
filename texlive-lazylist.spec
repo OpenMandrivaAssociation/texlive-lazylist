@@ -47,3 +47,17 @@ formally verified.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0a-2
++ Revision: 753208
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.0a-1
++ Revision: 718835
+- texlive-lazylist
+- texlive-lazylist
+- texlive-lazylist
+- texlive-lazylist
+
