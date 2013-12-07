@@ -6,7 +6,7 @@
 # catalog-version 1.0a
 Name:		texlive-lazylist
 Version:	1.0a
-Release:	3
+Release:	4
 Summary:	Lists in TeX's "mouth"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lazylist
