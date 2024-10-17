@@ -3,7 +3,7 @@ Version:	17691
 Release:	2
 Summary:	Lists in TeX's "mouth"
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lazylist
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/lazylist
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lazylist.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lazylist.doc.r%{version}.tar.xz
